@@ -1,0 +1,21 @@
+tools:
+    - name: eslint
+      languages: [Javascript, TypeScript]
+      extensions: [.js, .jsm, .jsx, .mjs, .ts, .tsx, .vue]
+      files: []
+    - name: lizard
+      languages: [Javascript, TypeScript]
+      extensions: [.js, .jsm, .jsx, .mjs, .ts, .tsx, .vue]
+      files: []
+    - name: pmd
+      languages: [Javascript]
+      extensions: [.js, .jsm, .jsx, .mjs, .vue]
+      files: []
+    - name: semgrep
+      languages: [Dockerfile, Javascript, Shell, TypeScript, YAML]
+      extensions: [.bash, .dockerfile, .js, .jsm, .jsx, .mjs, .sh, .ts, .tsx, .vue, .yaml, .yml]
+      files: []
+    - name: trivy
+      languages: [Dockerfile, JSON, Javascript, TypeScript, YAML]
+      extensions: [.dockerfile, .js, .jsm, .json, .jsx, .mjs, .ts, .tsx, .vue, .yaml, .yml]
+      files: [Dockerfile, package-lock.json, package.json, pnpm-lock.yaml, yarn.lock]

@@ -1,0 +1,4 @@
+mode: remote
+provider: gh
+organization: dmgoldstein1
+repository: DesktopCommanderMCP
